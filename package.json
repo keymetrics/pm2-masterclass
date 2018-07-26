@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@pm2/io": "^2.1.2",
     "express": "^4.16.3",
     "mongoose": "^5.2.5"
   }
