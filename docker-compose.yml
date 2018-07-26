@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  mongodb:
+    image: mongo:3.4
+    volumes:
+      - ./volumes/mongodb:/data/db2
+    ports:
+      - "27017:27017"
+    environment:
+      AUTH: "no"
